@@ -25,7 +25,10 @@ SECRET_KEY = 'ov#n20munr2$j-k7#=@tz8#e@h&^-!!w(dp7s2c2p2myrhf0h_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'astronomy2mykolash.pythonanywhere.com',
+    'localhost',
+]
 
 
 # Application definition
